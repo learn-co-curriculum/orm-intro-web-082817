@@ -32,3 +32,5 @@ Q: Write the SQL to find all the tweets tagged '#tbt'
 ```SQL
 
 ```
+
+4. After completing the questions above, is there a rule you can determine about which table the foreign key belongs on given two associated tables?
