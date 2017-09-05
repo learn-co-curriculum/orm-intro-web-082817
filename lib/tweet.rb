@@ -6,9 +6,9 @@ class Tweet
     ALL
   end
 
-  def initialize(options={})
-    @message = options['message']
-    @username = options['username']
+  def initialize(props={})
+    @message = props['message']
+    @username = props['username']
     ALL << self
   end
 end
