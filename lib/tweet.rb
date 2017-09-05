@@ -1,14 +1,17 @@
 class Tweet
   attr_accessor :message, :username
-  ALL = []
+
 
   def self.all
-    ALL
+    sql = <<-SQL
+    SELECT * FROM tweets
+    SQL
+
+    DB[:conn].execute(sql)
   end
 
   def initialize(props={})
     @message = props['message']
     @username = props['username']
-    ALL << self
   end
 end
