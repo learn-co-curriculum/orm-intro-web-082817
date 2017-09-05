@@ -1,6 +1,6 @@
 ## Object Relational Mapper (ORM)
 
-+ Objects in our Object Oriented Application that should correspond/map to our database somehow
++ Definition:
 
 ## Active Record Pattern
 
