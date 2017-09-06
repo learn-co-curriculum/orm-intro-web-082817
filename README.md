@@ -1,3 +1,10 @@
+## Dynamic ORM
+
+- I'd like to make a superclass I can inherit from
+- By inheriting from this superclass, I'll make a connection to the DB
+- Child class doesn't really know anything about DB, but by calling methods I'll be able to interact with the DB
+
+
 ## Active Record Pattern
 
 - each table in our db should correspond to a ruby class (models)

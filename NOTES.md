@@ -9,10 +9,10 @@
 1. Object Relational Mappers
   + Model classes should correspond to Tables in our DB
   + instances of classes should correspond to rows
-  + columns of tables correspond to attributes 
+  + columns of tables correspond to attributes
  2. Review CRUD
  	+ For each SQL statement, a Ruby method to fire it!
- 	+ We'll start small, then abstract some of this away tomorrow 
+ 	+ We'll start small, then abstract some of this away tomorrow
 
 
 ## Create
@@ -36,7 +36,7 @@
 - one instance of the tweet class where the message is 'great # coffee'
 
 ## Update
-- UPDATE tweets SET (message, username) VALUES ('great coffee', "coffeedad") WHERE id = 3
+- UPDATE tweets SET message='something', username='coffee_dad' WHERE id = 3
 - tweet.update({message: 'A new message'})
 ## Delete
 - DELETE FROM tweets WHERE id = 9
